@@ -5,6 +5,7 @@ output "ip" {
 
 output "privateIp" {
     value = aws_instance.test.private_ip
+    sensitive = true
   
 }
 
