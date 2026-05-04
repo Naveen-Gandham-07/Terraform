@@ -3,7 +3,6 @@ resource "aws_instance" "name" {
     instance_type = "t3.micro"
     key_name = "3-tier-project"
     tags = {
-      Name = "dev"
+      Name = "test"
     }
-  
 }
